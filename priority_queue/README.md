@@ -1,12 +1,10 @@
 # priority_queue
 ## definition
-···
-template<
-    class T,
-    class Container = std::vector<T>,
-    class Compare = std::less<typename Container::value_type>
-> class priority_queue;
-···  
+        template<
+            class T,
+            class Container = std::vector<T>,
+            class Compare = std::less<typename Container::value_type>
+        > class priority_queue; 
 ## compare function
 ### greater<T> less<T>
 ### 四种自定义方法
