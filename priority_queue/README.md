@@ -19,7 +19,7 @@
         } 
         priority_queue<node> q;
 #### (3). 自定义比较函数模板结构 
-当重载 () 时，您不是创造了一种新的调用函数的方式，相反地，这是创建一个可以传递任意数目参数的运算符函数。
+        当重载 () 时，您不是创造了一种新的调用函数的方式，相反地，这是创建一个可以传递任意数目参数的运算符函数。
         struct cmp{
             bool operator ()(const node &a, const node &b) {
                 return a.value > b.value;// 按照value从小到大排列
